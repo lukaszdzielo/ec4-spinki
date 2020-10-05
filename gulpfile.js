@@ -13,7 +13,7 @@ var clean = require('gulp-clean');
 var plumber = require('gulp-plumber');
 
 var config = {
-    proxy: '_portfolio.test', // change it to your development domain
+    proxy: 'ec4-spinki.test', // change it to your development domain
     sync: ['**/*.php', '**/*.html', '**/*.css'],
     css: {
         src: [

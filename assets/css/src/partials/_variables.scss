@@ -1,3 +1,9 @@
+// Color system
+
+$gray-900: #231f20 !default;
+
+$primary: #f0c8bf;
+
 // Spacing
 
 $spacers: (
@@ -7,6 +13,12 @@ $spacers: (
   15:  15px,
   20:  20px,
   25:  25px,
+  30:  30px,
+  35:  35px,
+  40:  40px,
+  45:  45px,
+  50:  50px,
+  55:  55px,
 ) !default;
 
 
@@ -16,4 +28,4 @@ $grid-gutter-width:           20px !default;
 
 // Container padding
 
-$container-padding-x: 20px !default;
+$container-padding-x: 40px !default;
