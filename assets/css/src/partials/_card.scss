@@ -1,6 +1,6 @@
-.card-portfolio {
+.card {
     position: relative;
-    .card-image {
+    &-image {
         position: absolute;
         top: 0;
         right: 0;
@@ -12,7 +12,15 @@
             object-fit: cover;
         }
     }
-    .card-body {
+    &-body {
         position: relative;
+        font-size: 18px;
+    }
+    &-heading {
+        font-size: 24px;
+        font-weight: $font-weight-bold;
+    }
+    &-dsc {
+        // @include LineEllipsis($FontSize: 1.125rem, $LineCount: 2);
     }
 }

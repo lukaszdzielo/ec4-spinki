@@ -1,3 +1,7 @@
+main {
+    font-size: 20px;
+}
+
 b,
 strong {
   font-weight: $font-weight-bold;
@@ -11,4 +15,30 @@ strong {
         font-size: 1.5rem;
         font-weight: $font-weight-bold;
     }
+}
+
+.overflow-unset {
+    overflow: unset;
+}
+
+.social__links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $gray-900;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    &:hover {
+        border-color: $primary;
+    }
+}
+
+.text-more {
+    color: $gray-900;
+    font-size: 1.125rem;
+}
+
+.overflow--unset {
+    overflow: unset;
 }

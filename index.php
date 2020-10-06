@@ -13,6 +13,7 @@
             </div>
         </div><!-- /.container -->
     </section>
+
     <section class="py-5">
         <!-- Slider main container -->
         <div class="swiper-container px-20">
@@ -20,19 +21,13 @@
             <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                    <?php include 'elements/portfolio__1.php' ?>
+                    <?php include 'elements/card__1.php' ?>
                 </div>
                 <div class="swiper-slide">
-                    <?php include 'elements/portfolio__1.php' ?>
+                    <?php include 'elements/card__1.php' ?>
                 </div>
                 <div class="swiper-slide">
-                    <?php include 'elements/portfolio__1.php' ?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include 'elements/portfolio__1.php' ?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include 'elements/portfolio__1.php' ?>
+                    <?php include 'elements/card__1.php' ?>
                 </div>
             </div>
             <!-- If we need pagination -->
@@ -49,6 +44,32 @@
         <div class="container text-center pt-5">
             <a href="#" class="btn btn-primary">Show more</a>
         </div>
+    </section>
+
+    <section class="bg-light py-50 overflow-hidden">
+
+        <div class="container">
+            <div class="swiper-container overflow-unset mb-30">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        
+                    <div class="swiper-slide">
+                        <?php include 'elements/card__1.php' ?>
+                    </div>
+                    <div class="swiper-slide">
+                        <?php include 'elements/card__1.php' ?>
+                    </div>
+                    <div class="swiper-slide">
+                        <?php include 'elements/card__1.php' ?>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <a href="#" class="text-more">Kliknij po więcej</a>
+            </div>
+        </div>
+
     </section>
 </main>
 
