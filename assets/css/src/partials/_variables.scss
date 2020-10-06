@@ -7,20 +7,40 @@ $primary: #f0c8bf;
 // Spacing
 
 $spacers: (
-  0:    0,
-  5:    5px,
-  10:  10px,
-  15:  15px,
-  20:  20px,
-  25:  25px,
-  30:  30px,
-  35:  35px,
-  40:  40px,
-  45:  45px,
-  50:  50px,
-  55:  55px,
+    0:    0,
+    5:    5px,
+    10:  10px,
+    15:  15px,
+    20:  20px,
+    25:  25px,
+    30:  30px,
+    35:  35px,
+    40:  40px,
+    45:  45px,
+    50:  50px,
+    55:  55px,
 ) !default;
 
+// Grid breakpoints
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    xxxl: 1600px
+) !default;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
+    xxxl: 1560px
+) !default;
 
 // Grid columns
 
@@ -28,7 +48,7 @@ $grid-gutter-width:           20px !default;
 
 // Container padding
 
-$container-padding-x: 40px !default;
+$container-padding-x:         60px !default;
 
 // Typography
 
@@ -39,3 +59,6 @@ $font-family-base: 'Barlow', sans-serif;
 $font-weight-normal:          300 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          900 !default;
+
+$headings-font-weight:        900 !default;
+

@@ -8,5 +8,7 @@
     <link rel="icon" href="assets/img/dist/favicon.png">
     <?php /* website styles */ ?>
     <link rel="stylesheet" href="assets/css/dist/main.min.css">
+    <!-- add script in head of your website -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
