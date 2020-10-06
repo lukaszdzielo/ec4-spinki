@@ -3,22 +3,16 @@
 <script>
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
-        slidesPerView: 1.1,
-        spaceBetween: 20,
-        centeredSlides: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+        slidesPerView: 1,
+        spaceBetween: 10,
         breakpoints: {
-            576: {
-                slidesPerView: 1.5,
-            },
             768: {
                 slidesPerView: 2,
+                spaceBetween: 20,
             },
-            1024: {
-                slidesPerView: 5,
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
             },
         }
     });
