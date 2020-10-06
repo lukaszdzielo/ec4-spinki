@@ -1,0 +1,14 @@
+b,
+strong {
+  font-weight: $font-weight-bold;
+}
+
+.list {
+    li + li {
+        margin-top: 10px;
+    }
+    &--big {
+        font-size: 1.5rem;
+        font-weight: $font-weight-bold;
+    }
+}

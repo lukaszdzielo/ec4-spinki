@@ -40,7 +40,7 @@
 @import "../../lib/bootstrap/scss/helpers";
 // Utilities
 @import "../../lib/bootstrap/scss/utilities/api";
-// Bootstrap End
+// Bootstrap end
 
 // Swiper
 @import "../../lib/swiper/swiper.scss";
@@ -56,6 +56,16 @@
 // @import "../../lib/swiper/components/scrollbar/scrollbar.scss";
 // @import "../../lib/swiper/components/thumbs/thumbs.scss";
 // @import "../../lib/swiper/components/zoom/zoom.scss";
+// Swiper end
+
+// FontAwesome
+$fa-font-path:        "../../fonts/fontawesome/webfonts";
+@import "../../fonts/fontawesome/scss/fontawesome.scss";
+@import "../../fonts/fontawesome/scss/solid.scss";
+@import "../../fonts/fontawesome/scss/brands.scss";
+// D:\laragon\www\ec4-spinki\assets\fonts\fontawesome\scss\fontawesome.scss
+// FontAwesome end
+
 
 @import "partials/general";
 @import "partials/header";
