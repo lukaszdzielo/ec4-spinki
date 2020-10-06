@@ -17,6 +17,9 @@
                 <div>
                     COPYRIGHTS ©2020 Spinki
                 </div>
+                <div>
+                    Realizacja - <a href="#">eConnect4u</a>
+                </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-50">
                 <div>

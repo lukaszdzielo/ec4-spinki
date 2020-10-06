@@ -29,3 +29,13 @@ $grid-gutter-width:           20px !default;
 // Container padding
 
 $container-padding-x: 40px !default;
+
+// Typography
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700;900&display=swap');
+
+$font-family-base: 'Barlow', sans-serif;
+
+$font-weight-normal:          300 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          900 !default;

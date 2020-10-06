@@ -53,7 +53,7 @@ function taskBuildCss() {
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(gulp.dest(config.css.dest))
-        .pipe(minCss())
+        .pipe(minCss({processImport: false}))
         .pipe(rename({extname: '.min.css'}))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(config.css.dest));
