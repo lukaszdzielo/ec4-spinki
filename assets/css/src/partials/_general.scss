@@ -42,3 +42,29 @@ strong {
 .overflow--unset {
     overflow: unset;
 }
+
+.nav--pills {
+    .nav-item {
+        margin-right: 25px;
+        @include media-breakpoint-up(sm) {
+            margin-right: 50px;
+        }
+        @include media-breakpoint-up(lg) {
+            margin-right: 125px;
+        }
+    }
+    .nav-link {
+        padding: 0;
+        background: transparent;
+        color: rgba($gray-900,.5);
+        font-size: 30px;
+        font-weight: 900;
+        @include media-breakpoint-up(lg) {
+            font-size: 48px;
+        }
+        &.active {
+            background: transparent;
+            color: $gray-900;
+        }
+    }
+}

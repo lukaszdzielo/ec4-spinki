@@ -1,26 +1,38 @@
-.card {
+.card__1 {
+    --title-size: 1.5rem;
+    --title-line-height: 1.5;
+    --title-lines: 1;
+
+    --text-size: 1.125rem;
+    --text-line-height: 1.5;
+    --text-lines: 2;
+    
     position: relative;
-    &-image {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+    .card-image {
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-    &-body {
+    .card-body {
         position: relative;
         font-size: 18px;
     }
-    &-heading {
-        font-size: 24px;
+    .card-heading {
+        max-height: calc(var(--title-size) * var(--title-line-height) * var(--title-lines) );
+        font-size: var(--title-size);
         font-weight: $font-weight-bold;
+        line-height: var(--title-line-height);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
-    &-dsc {
-        // @include LineEllipsis($FontSize: 1.125rem, $LineCount: 2);
+    .card-test {
+        height: 100%;
+        height: calc(var(--text-size) * var(--text-line-height) * var(--text-lines));
+        font-size: var(--text-size);
+        line-height: var(--text-line-height);
+        overflow: hidden;
     }
 }

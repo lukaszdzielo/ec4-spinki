@@ -14,59 +14,55 @@
         </div><!-- /.container -->
     </section>
 
-    <section class="py-5">
-        <!-- Slider main container -->
-        <div class="swiper-container px-20">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <?php include 'elements/card__1.php' ?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include 'elements/card__1.php' ?>
-                </div>
-                <div class="swiper-slide">
-                    <?php include 'elements/card__1.php' ?>
-                </div>
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
-
-        <div class="container text-center pt-5">
-            <a href="#" class="btn btn-primary">Show more</a>
-        </div>
+    <section class="bg-light py-50">
+        test
     </section>
-
-    <section class="bg-light py-50 overflow-hidden">
+    <section class="py-50 overflow-hidden">
 
         <div class="container">
-            <div class="swiper-container overflow-unset mb-30">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                        
-                    <div class="swiper-slide">
-                        <?php include 'elements/card__1.php' ?>
+            <ul class="nav nav-pills nav--pills mb-30">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane show active" id="tab-portfolio" role="tabpanel">
+                    <div class="swiper-container overflow-unset mb-30">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <?php include 'elements/card__1.php' ?>
+                            </div>
+                            <div class="swiper-slide">
+                                <?php include 'elements/card__1.php' ?>
+                            </div>
+                            <div class="swiper-slide">
+                                <?php include 'elements/card__1.php' ?>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <?php include 'elements/card__1.php' ?>
-                    </div>
-                    <div class="swiper-slide">
-                        <?php include 'elements/card__1.php' ?>
+                    <div class="">
+                        <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <a href="#" class="text-more">Kliknij po więcej</a>
+                <div class="tab-pane" id="tab-blog" role="tabpanel">
+                    <div class="swiper-container overflow-unset mb-30">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <?php include 'elements/card__1.php' ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                    </div>
+                </div>
             </div>
         </div>
 
