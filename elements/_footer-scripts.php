@@ -5,6 +5,8 @@
         slidesPerView: 'auto',
         slidesPerView: 1,
         spaceBetween: 10,
+        observer: true,
+        observeParents: true,
         breakpoints: {
             768: {
                 slidesPerView: 2,
