@@ -1,4 +1,4 @@
-<section class="pt-30 pb-80 overflow-hidden">
+<section class="pt-50 pb-80 overflow-hidden">
     <div class="container">
         <div class="row gx-50">
             <div class="col-lg-6 mb-30">

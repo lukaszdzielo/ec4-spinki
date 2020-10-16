@@ -37,6 +37,10 @@ $spacers: (
     135:  135px,
 ) !default;
 
+// Options
+
+$enable-negative-margins:     true !default;
+
 // Grid breakpoints
 
 $grid-breakpoints: (
