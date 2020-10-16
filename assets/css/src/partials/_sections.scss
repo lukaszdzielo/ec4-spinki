@@ -18,3 +18,57 @@
         }
     }
 }
+
+.line__custom {
+    &--1 {
+        width: 100vw;
+        height: 7px;
+        background: $gray-100;
+        &:after {
+            content: "";
+            display: block;
+            width: 35vw;
+            max-width: 350px;
+            height: 100%;
+            background: $primary;
+        }
+    }
+}
+
+.shape__custom {
+    &--1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        display: block;
+        width: 50%;
+        max-width: 280px;
+        height: 100%;
+        background: $primary;
+        z-index: -1;
+    }
+}
+
+.svg__custom {
+    &--1 {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        width: 130px;
+        transform: translateX(50%);
+    }
+}
+
+.testimonial {
+    &--text {
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+    &--author {
+        margin-top: 20px;
+        border-left: 7px solid $gray-900;
+        padding-left: 20px;
+        font-weight: 700;
+    }
+}
