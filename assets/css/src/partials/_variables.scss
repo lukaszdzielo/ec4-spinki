@@ -31,6 +31,10 @@ $spacers: (
     105:  105px,
     110:  110px,
     115:  115px,
+    120:  120px,
+    125:  125px,
+    130:  130px,
+    135:  135px,
 ) !default;
 
 // Grid breakpoints
@@ -56,7 +60,7 @@ $container-max-widths: (
 
 // Grid columns
 
-$grid-gutter-width:           20px !default;
+$grid-gutter-width:           30px !default;
 
 // Container padding
 
