@@ -16,6 +16,24 @@
 
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
 
+<section class="pt-50 pb-130">
+    <div class="container">
+        <div class="mb-50">
+            <div class="h2 m-0">WEDDING PLANNER</div>
+            <div class="h1 m-0">CZY WARTO?</div>
+        </div>
+        <div>
+            Czy warto zatrudnić <br>wedding plannera?
+        </div>
+        <div class="py-50">
+            <p>Jeśli chociaż raz <strong>pomyślałaś “właśnie tego chcę”</strong>, to znak, że jesteśmy sobie pisane.</p>
+            <div class="h3">Spotkajmy się, wirtualnie czy na kawie, i porozmawiajmy o Twoich ślubnych planach.</div>
+        </div>
+    </div><!-- /.container -->
+</section>
+
+<div class="bg-light" style="width: 100%; height: 10px;"></div>
+
 <?php include 'elements/coopstages_section.php' ?>
 
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
