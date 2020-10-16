@@ -4,7 +4,7 @@
     <meta name="description" content="">
     <meta name="author" content="Łukasz Dzieło">
     <?php /* website title */ ?>
-    <title>Łukasz Dzieło | Frontend developer</title>
+    <title>Spinki</title>
     <link rel="icon" href="assets/img/dist/favicon.png">
     <?php /* website styles */ ?>
     <link rel="stylesheet" href="assets/css/dist/main.min.css">

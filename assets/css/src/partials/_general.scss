@@ -2,6 +2,23 @@ main {
     font-size: 20px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// .h1, h1 {
+//     @include media-breakpoint-up(lg) {
+
+//     }
+// }
+// .h2, h2 {
+//     @include font-size(1.875rem);
+//     @include media-breakpoint-up(lg) {
+//         @include font-size(3rem);
+//     }
+// }
+
 b,
 strong {
   font-weight: $font-weight-bold;
@@ -46,9 +63,6 @@ strong {
 .nav--pills {
     .nav-item {
         margin-right: 25px;
-        @include media-breakpoint-up(sm) {
-            margin-right: 50px;
-        }
         @include media-breakpoint-up(lg) {
             margin-right: 125px;
         }
@@ -57,11 +71,7 @@ strong {
         padding: 0;
         background: transparent;
         color: rgba($gray-900,.5);
-        font-size: 30px;
         font-weight: 900;
-        @include media-breakpoint-up(lg) {
-            font-size: 48px;
-        }
         &.active {
             background: transparent;
             color: $gray-900;
