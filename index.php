@@ -17,9 +17,10 @@
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
 
 
+
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
 
-<?php include 'elements/cooperation_section.php' ?>
+<?php include 'elements/cooprules_section.php' ?>
 <?php include 'elements/testimonials_section.php' ?>
 <?php include 'elements/team_section.php' ?>
 <?php include 'elements/portfolio_blog_section.php' ?>
