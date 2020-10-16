@@ -36,3 +36,25 @@
         overflow: hidden;
     }
 }
+
+.card__2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .card-image {
+        img {
+        }
+    }
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .card-positions {
+        font-style: italic;
+    }
+    a {
+        color: $gray-900;
+        text-decoration: none;
+        transition: $transition-base;
+    }
+}

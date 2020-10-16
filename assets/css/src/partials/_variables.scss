@@ -19,6 +19,16 @@ $spacers: (
     45:  45px,
     50:  50px,
     55:  55px,
+    60:  60px,
+    65:  65px,
+    70:  70px,
+    75:  75px,
+    80:  80px,
+    85:  85px,
+    90:  90px,
+    95:  95px,
+    100:  100px,
+    105:  105px,
 ) !default;
 
 // Grid breakpoints
@@ -62,3 +72,5 @@ $font-weight-bolder:          900 !default;
 
 $headings-font-weight:        900 !default;
 
+$h1-font-size:                3.75rem !default;
+$h2-font-size:                3rem !default;

@@ -1,6 +1,6 @@
 <div class="card__1">
     <div class="card-image">
-        <img src="assets/img/dist/img001__500x200.jpg" alt="Lorem ipsum">
+        <img src="assets/img/dist/img001__500x200.jpg" alt="#" loading="lazy">
     </div>
     <div class="card-body p-20 pt-15 bg-primary">
         <div class="card-heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, suscipit.</div>
