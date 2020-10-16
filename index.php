@@ -16,7 +16,7 @@
 
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
 
-
+<?php include 'elements/coopstages_section.php' ?>
 
 <div class="bg-light" style="width: 100%; height: 10px;"></div>
 
