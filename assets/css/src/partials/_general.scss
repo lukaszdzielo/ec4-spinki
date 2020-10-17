@@ -18,21 +18,42 @@ strong {
 
 .list {
     &--scroll {
+        position: relative;
         margin: 0;
-        padding: 0;
-        max-height: 600px;
         @include font-size(2.25rem);
-        overflow: auto;
+        ul {
+            margin: 0;
+            padding: 30px 22px 150px 0;
+            max-height: 600px;
+            overflow: auto;
+        }
         li {
             + li {
                 margin-top: 20px;
             }
         }
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            right: 7px;
+            left: 0;
+            display: block;
+            pointer-events: none;
+        }
+        &:before {
+            top: 0;
+            height: 30px;
+            background: linear-gradient(to top, rgba(0,0,0,0), #ffffff);
+            background: linear-gradient(to bottom, #ffffff, rgba(#ffffff, 0));
+            
+        }
+        &:after {
+            bottom: 0;
+            height: 150px;
+            background: linear-gradient(to top, #ffffff, rgba(#ffffff, 0));
+        }
     }
-}
-
-.overflow-unset {
-    overflow: unset;
 }
 
 .social__links {
@@ -46,15 +67,6 @@ strong {
     &:hover {
         border-color: $primary;
     }
-}
-
-.text-more {
-    color: $gray-900;
-    @include font-size(1.125rem);
-}
-
-.overflow--unset {
-    overflow: unset;
 }
 
 .nav__pills {

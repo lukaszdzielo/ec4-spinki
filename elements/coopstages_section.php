@@ -21,7 +21,7 @@
                     <span class="number">3</span>
                     <span class="text">Zacznijmy organizację Twojego ślubu - umowa</span>
                 </button>
-            </div>
+            </div><!-- /.col -->
             <div class="col-lg pt-lg-115">
                 <div class="accordion" id="accordion-steps">
                     <button class="btn nav__pills--step d-lg-none" type="button" data-toggle="collapse" data-target="#step-ankieta" aria-expanded="true" aria-controls="step-ankieta">
@@ -46,7 +46,7 @@
                         <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
     </div><!-- /.container -->
 </section>
