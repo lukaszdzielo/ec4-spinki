@@ -19,7 +19,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="mb-50">
-                            <p><strong>NK Group Karina Ciosk-Komorowska</strong><br><br>25-002 Kielce, Ul. Sienkiewicza 57/6<br>NIP 959-146-47-75<br><br><br>Tel. <a href="#">663 256 486</a><br>Tel. <a href="#">691 236 486</a><br><br>e-mail: <a href="#">biuro@agencjaspinki.pl</a></p>
+                            <p><strong>NK Group Karina Ciosk-Komorowska</strong> <br><br>25-002 Kielce, Ul. Sienkiewicza 57/6 <br>NIP 959-146-47-75 <br><br><br>Tel. <a href="#">663 256 486</a> <br>Tel. <a href="#">691 236 486</a> <br><br>e-mail: <a href="#">biuro@agencjaspinki.pl</a></p>
                         </div>
                         <div class="mb-50">
                             <a href="#" class="social__links mr-15"><i class="fab fa-facebook-f fa-fw"></i></a>

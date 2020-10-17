@@ -30,8 +30,7 @@
                                 </div>
 
                                 <div class="mt-auto">
-                                    <a href="#">karina@agencjaspinki.pl</a><br>
-                                    Tel. <a href="#">+48 691 236 486</a>
+                                    <a href="#">karina@agencjaspinki.pl</a> <br>Tel. <a href="#">+48 691 236 486</a>
                                 </div>
 
                             </div>
@@ -50,8 +49,7 @@
                                 </div>
 
                                 <div class="mt-auto">
-                                    <a href="#">agata@agencjaspinki.pl</a><br>
-                                    Tel. <a href="#">+48 733 999 472</a>
+                                    <a href="#">agata@agencjaspinki.pl</a> <br>Tel. <a href="#">+48 733 999 472</a>
                                 </div>
 
                             </div>
@@ -73,8 +71,7 @@
                                 </div>
 
                                 <div class="mt-auto">
-                                    <a href="#">weronika@agencjaspinki.pl</a><br>
-                                    Tel. <a href="#">+48 691 773 760</a>
+                                    <a href="#">weronika@agencjaspinki.pl</a> <br>Tel. <a href="#">+48 691 773 760</a>
                                 </div>
 
                             </div>
