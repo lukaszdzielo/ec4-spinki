@@ -2,7 +2,7 @@
     &--text {
         position: relative;
         img {
-            min-height: 350px;
+            min-height: 250px;
             object-fit: cover;
         }
         .content {
@@ -120,13 +120,13 @@
 
 .testimonial {
     &--text {
-        font-size: 1.5rem;
+        @include font-size(1.5rem);
         font-style: italic;
     }
     &--author {
         margin-top: 20px;
         border-left: 7px solid $gray-900;
         padding-left: 20px;
-        font-weight: 700;
+        font-weight: $font-weight-bold;
     }
 }
