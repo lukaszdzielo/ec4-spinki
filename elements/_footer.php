@@ -4,7 +4,7 @@
             <div class="col-lg-8">
                 <div class="row h-100">
                     <div class="col-md-6">
-                        <ul class="list list--big list-unstyled mb-50">
+                        <ul class="list--footer list-unstyled mb-50">
                             <li><a href="#">O nas</a></li>
                             <li><a href="#">Co robimy</a></li>
                             <li><a href="#">Portfolio</a></li>
@@ -12,7 +12,7 @@
                             <li><a href="#">Akademia Ślubna</a></li>
                             <li><a href="#">Kalkulator weselny</a></li>
                         </ul>
-                        <ul class="list list-unstyled mb-50">
+                        <ul class="list-unstyled mb-50">
                             <li><a href="#">Polityka prywatności</a></li>
                             <li><a href="#">Regulamin</a></li>
                         </ul>

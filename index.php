@@ -27,7 +27,7 @@
         </div>
         <div>
             <div>Stworzyłyśmy listę pytań, dzięki której określisz czy konsultant ślubny jest Ci potrzebny:</div>
-            <ul>
+            <ul class="list--scroll mt-30 mb-50">
                 <li>- jeśli <strong>mieszkasz za granicą,</strong></li>
                 <li>- jeśli <strong>mieszkasz w innym mieście</strong> oddalonym o wiele kilometrów od miejsca </li>organizacji ślubu,
                 <li>- jeśli <strong>praca zajmuje Ci 100% czasu</strong>, bo jest jest Twoją pasją (znamy to z </li>doświadczenia),
@@ -43,7 +43,7 @@
                 <li>- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ut.</li>
             </ul>
         </div>
-        <div class="py-50">
+        <div class="">
             <p>Jeśli chociaż raz <strong>pomyślałaś “właśnie tego chcę”</strong>, to znak, że jesteśmy sobie pisane.</p>
             <div class="h4">Spotkajmy się, wirtualnie czy na kawie, i porozmawiajmy o Twoich ślubnych planach.</div>
         </div>
