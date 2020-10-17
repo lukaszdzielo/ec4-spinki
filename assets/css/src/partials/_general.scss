@@ -49,24 +49,26 @@ strong {
 }
 
 .nav__pills {
-    &--steps {
+    &--step {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 100%;
+        color: $gray-900;
         font-weight: $font-weight-bold;
-        .nav-link {
-            padding: 0;
-            color: $gray-900;
-            &:not(.active) {
-                opacity: .6;
-            }
-            + .nav-link {
-                margin-top: 40px;
-            }
+        text-decoration: none;
+        text-align: left;
+        box-shadow: none !important;
+        transition: 0.15s;
+        &.collapsed {
+            opacity: .5;
         }
         span {
             display: block;
         }
         .number {
             width: 120px;
-            @include font-size(3.75rem);
+            font-size: 3.75rem;
             line-height: normal;
             text-align: center;
             &:before {
@@ -80,6 +82,9 @@ strong {
         }
         .text {
             @include font-size(2.25rem);
+        }
+        ~ .nav__pills--step {
+            margin-top: 40px;
         }
     }
     &--1 {
