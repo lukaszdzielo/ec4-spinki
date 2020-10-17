@@ -1,13 +1,9 @@
 <section class="pt-50 pb-70 overflow-hidden">
     <div class="container">
-        <ul class="nav nav-pills nav--pills mb-20">
-            <li class="nav-item">
-                <a class="nav-link h2 active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link h2" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
-            </li>
-        </ul>
+        <div class="nav nav__pills--1 mb-20" role="tablist">
+            <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
+            <a class="nav-link" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
+        </div>
         <div class="tab-content">
             <div class="tab-pane show active" id="tab-portfolio" role="tabpanel">
                 <div class="swiper-1 swiper-container mb-30">

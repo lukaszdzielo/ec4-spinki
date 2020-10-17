@@ -1,8 +1,4 @@
 .card__1 {
-    --title-size: 1.5rem;
-    --title-line-height: 1.5;
-    --title-lines: 1;
-
     --text-size: 1.125rem;
     --text-line-height: 1.5;
     --text-lines: 2;
@@ -17,19 +13,15 @@
     }
     .card-body {
         position: relative;
-        font-size: 18px;
     }
-    .card-heading {
-        max-height: calc(var(--title-size) * var(--title-line-height) * var(--title-lines) );
-        font-size: var(--title-size);
+    .card-title {
+        @include font-size(1.5rem);
         font-weight: $font-weight-bold;
-        line-height: var(--title-line-height);
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-    .card-test {
-        height: 100%;
+    .card-text {
         height: calc(var(--text-size) * var(--text-line-height) * var(--text-lines));
         font-size: var(--text-size);
         line-height: var(--text-line-height);
@@ -46,8 +38,8 @@
         }
     }
     .card-title {
-        font-size: 1.5rem;
-        font-weight: 700;
+        @include font-size(1.5rem);
+        font-weight: $font-weight-bold;
     }
     .card-positions {
         font-style: italic;
