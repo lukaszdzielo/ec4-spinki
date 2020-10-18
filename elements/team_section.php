@@ -1,4 +1,4 @@
-<section class="pt-50 pb-90 overflow-hidden">
+<section class="pt-50 pb-40 overflow-hidden">
     <div class="container">
         <div class="mb-50">
             <div class="h2 m-0">SPINKI</div>

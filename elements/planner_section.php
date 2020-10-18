@@ -1,4 +1,4 @@
-<section class="pt-50 pb-130">
+<section class="pt-50 pb-120">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-xxl-5 mb-60">
