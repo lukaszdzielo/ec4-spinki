@@ -6,13 +6,13 @@
                 <div class="h1 m-0">CZY WARTO?</div>
             </div><!-- /.col -->
             <div class="col-md col-xxl-5 mb-60">
-                <div class="position-relative pl-10 pt-5 pb-10 text__custom--1">
+                <div class="position-relative pl-10 pt-5 pb-10 text__custom--1 font-weight-bolder">
                     <div class="shape__custom--2"></div>
                     Czy warto zatrudnić <br>wedding plannera?
                 </div>
             </div><!-- /.col -->
         </div><!-- /.row -->
-        <div class="text__custom--1">Stworzyłyśmy listę pytań, dzięki której określisz czy konsultant ślubny jest Ci potrzebny:</div>
+        <div class="text__custom--1 font-weight-bolder">Stworzyłyśmy listę pytań, dzięki której określisz czy konsultant ślubny jest Ci potrzebny:</div>
         <div class="list--scroll mt-15 mb-50">
             <ul class="list-unstyled">
                 <li>- jeśli <strong>mieszkasz za granicą,</strong></li>
