@@ -22,13 +22,7 @@ function init() {
     // add marker
     var marker1 = new google.maps.Marker({
         position: map.getCenter(),
-        icon: {
-            path: 'M0-20a7,7,0,0,0-7,7C-7-7.7,0,0,0,0S7-7.7,7-13A7,7,0,0,0,0-20Zm0,9.5A2.48,2.48,0,0,1-2.5-13,2.48,2.48,0,0,1,0-15.5,2.48,2.48,0,0,1,2.5-13,2.48,2.48,0,0,1,0-10.5Z',
-            scale: 2,
-            fillOpacity: 1,
-            fillColor: '#f0c8bf',
-            strokeWeight: 0,
-        },
+        icon: "../assets/img/dist/map--marker.png",
         map: map,
     });
 }
