@@ -22,7 +22,11 @@ function init() {
     // add marker
     var marker1 = new google.maps.Marker({
         position: map.getCenter(),
-        icon: "assets/img/dist/map--marker.png",
+        icon: {
+            url: "assets/img/dist/map--marker.png",
+            size: new google.maps.Size(50, 50),
+            anchor: new google.maps.Point(25, 25)
+        },
         map: map,
     });
 }
