@@ -1,4 +1,4 @@
-<section class="pt-50 pb-70 overflow-hidden">
+<section class="pt-50 pb-60 overflow-hidden">
     <div class="container">
         <div class="nav nav__pills--1 mb-20" role="tablist">
             <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>

@@ -1,7 +1,7 @@
 <section class="pt-50 pb-90">
     <div class="container">
         <div class="image__custom--text mb-70">
-            <img src="assets/img/dist/wspolpraca-3.jpg" alt="#" loading="lazy" class="">
+            <img src="assets/img/dist/etapywspolpracy.jpg" alt="#" loading="lazy" class="">
             <div class="content">
                 <div class="h2 m-0">ETAPY</div>
                 <div class="h1 m-0">WSPÓŁPRACY</div>

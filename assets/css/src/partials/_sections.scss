@@ -36,44 +36,52 @@
             height: 490px;
         }
     }
-    &--cooprules-1 {
-        padding-right: 100px;
-        width: 100%;
-        @include media-breakpoint-up(sm) {
-            padding-right: 150px;
-        }
-        @include media-breakpoint-up(md) {
-            padding-right: 200px;
-        }
-        @include media-breakpoint-up(lg) {
-            padding-right: 50px;
-        }
+}
+
+.banner {
+    &--custom__text {
+        margin-right: -20%;
+        z-index: 1;
+    }
+    &--start {
+        position: absolute;
+        bottom: -40px;
+        left: -50px;
+        display: inline-block;
+        font-size: 1.125rem;
+        font-weight: $font-weight-bold;
+        transform: rotate(-90deg);
+        transform-origin: bottom left;
         @include media-breakpoint-up(xxl) {
-            padding-right: 100px;
+            bottom: -20px;
         }
         @include media-breakpoint-up(xxxl) {
-            padding-right: 140px;
+            bottom: 10px;
+        }
+        &:before {
+            position: absolute;
+            right: 110%;
+            top: 50%;
+            content: "";
+            display: block;
+            width: 20px;
+            height: 1px;
+            background: $gray-900;
+            @include media-breakpoint-up(xxl) {
+                width: 40px;
+            }
+            @include media-breakpoint-up(xxxl) {
+                width: 70px;
+            }
         }
     }
-    &--cooprules-2 {
-        margin-top: -100px;
-        padding-left: 100px;
-        width: 100%;
-        @include media-breakpoint-up(sm) {
-            padding-left: 150px;
-        }
-        @include media-breakpoint-up(md) {
-            padding-left: 200px;
-        }
-        @include media-breakpoint-up(lg) {
-            padding-left: 50px;
-        }
-        @include media-breakpoint-up(xxl) {
-            padding-left: 100px;
-        }
-        @include media-breakpoint-up(xxxl) {
-            padding-left: 140px;
-        }
+    &--mark {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 15vw;
+        transform: translate(50%, 50%);
+        pointer-events: none;
     }
 }
 
