@@ -20703,7 +20703,7 @@ header.navbar {
     align-items: center;
     flex: 0 0 auto;
     margin-right: 40px;
-    height: 40px;
+    height: 100%;
     padding: 0; }
     header.navbar .navbar-brand img {
       height: 25px; }
@@ -20775,7 +20775,7 @@ header.navbar {
 
 .modal__nav .nav-link {
   color: #231f20;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   text-align: center; }
 
