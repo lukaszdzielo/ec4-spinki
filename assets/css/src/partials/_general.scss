@@ -1,5 +1,7 @@
 main {
-    @include font-size(1.25rem);
+    @include media-breakpoint-up(lg) {
+        @include font-size(1.25rem);
+    }
 }
 
 img {
@@ -44,7 +46,6 @@ strong {
         &:before {
             top: 0;
             height: 30px;
-            background: linear-gradient(to top, rgba(0,0,0,0), #ffffff);
             background: linear-gradient(to bottom, #ffffff, rgba(#ffffff, 0));
             
         }

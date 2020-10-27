@@ -444,7 +444,7 @@ progress {
 .container-xl,
 .container-xxl,
 .container-xxxl {
-  --bs-gutter-x: 60px;
+  --bs-gutter-x: 40px;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
@@ -20582,8 +20582,9 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-main {
-  font-size: 1.25rem; }
+@media (min-width: 992px) {
+  main {
+    font-size: 1.25rem; } }
 
 img {
   max-width: 100%;
@@ -20626,7 +20627,6 @@ strong {
   .list--scroll:before {
     top: 0;
     height: 30px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0), #ffffff);
     background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0)); }
   .list--scroll:after {
     bottom: 0;
@@ -21010,3 +21010,75 @@ footer .list li + li {
     transition: all 0.2s ease-in-out; }
     .card__2 a:not(:hover) {
       color: #231f20; }
+
+.card__reference {
+  --transition: .3s;
+  position: relative;
+  min-height: 560px;
+  color: #fff; }
+  .card__reference--image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; }
+    .card__reference--image img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+    .card__reference--image:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      display: block;
+      background: #231f20;
+      background: linear-gradient(to top, #231f20 50%, rgba(255, 255, 255, 0));
+      opacity: .8;
+      transition: var(--transition) ease; }
+  .card__reference:hover .card__reference--image:after {
+    bottom: -100%; }
+  .card__reference--svg {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 120px;
+    transition: var(--transition);
+    z-index: 1; }
+  .card__reference:hover .card__reference--svg {
+    top: -160px; }
+  .card__reference--body {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .card__reference--heading {
+    font-size: calc(1.35rem + 1.2vw); }
+    @media (min-width: 1200px) {
+      .card__reference--heading {
+        font-size: 2.25rem; } }
+  .card__reference--text {
+    max-height: calc(16px * 1.8 * 5);
+    line-height: 1.8;
+    transition: var(--transition);
+    overflow: hidden; }
+    @media (min-width: 992px) {
+      .card__reference--text {
+        max-height: calc(20px * 1.8 * 5); } }
+  .card__reference:hover .card__reference--text {
+    max-height: 0; }
+  .card__reference--link {
+    max-height: 0;
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: 700;
+    transition: var(--transition);
+    overflow: hidden; }
+    @media (min-width: 1200px) {
+      .card__reference--link {
+        font-size: 1.5rem; } }
+  .card__reference:hover .card__reference--link {
+    max-height: 50px; }
