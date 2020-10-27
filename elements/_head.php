@@ -12,3 +12,5 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
+
+<?php include '__pages_list.php' ?>
