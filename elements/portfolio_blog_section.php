@@ -31,10 +31,10 @@
                     <div class="nav-link active">Blog</div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 mb-10">
+                    <div class="col-md-4 mb-10 mb-md-30">
                         <?php include 'elements/card__blog.php' ?>
                     </div>
-                    <div class="col-md-4 mb-10">
+                    <div class="col-md-4 mb-10 mb-md-30">
                         <?php include 'elements/card__blog.php' ?>
                     </div>
                 </div>
