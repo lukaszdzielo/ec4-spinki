@@ -27,6 +27,7 @@ var config = {
             // 'assets/lib/popper.js',
             'assets/lib/bootstrap/dist/js/bootstrap.js',
             'assets/lib/swiper/swiper-bundle.js',
+            'assets/lib/aos/js/aos.js',
             'assets/js/src/main.js',
         ],
         dest: 'assets/js/dist'
