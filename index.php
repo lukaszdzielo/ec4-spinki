@@ -4,9 +4,9 @@
 
 <?php include 'elements/_header.php' ?>
 
-<main class="overflow-hidden">
+<main>
 
-<section>
+<section data-aos="fade-in">
     <div class="container">
         <div class="row gx-0 align-items-center mb-md-40">
             <div class="col banner--custom__text d-none d-md-block">
@@ -22,7 +22,7 @@
     </div>
 </section>
 
-<section class="pt-30 pt-md-50 pb-md-20">
+<section class="pt-30 pt-md-50 pb-md-20" data-aos="fade-in">
     <div class="container">
         <div class="text__custom--4 font-weight-bolder mb-10">SPINKI WEDDING PLANNERS - ORGANIZACJA WESEL I ŚLUBÓW OD 14 LAT </div>
         <div class="text__custom--3 mb-30 mb-md-70">
@@ -31,7 +31,7 @@
             <span class="text-nowrap">{ WARSZAWA }</span>
             <span class="text-nowrap">{ POZNAŃ }</span>
         </div>
-        <div class="row gx-50">
+        <div class="row gx-md-50">
             <div class="col-md mb-30 order-md-1 text-center">
                 <img src="assets/img/dist/spinkiweedingplanner.png" alt="#" loading="lazy">
             </div>

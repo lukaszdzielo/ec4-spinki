@@ -1,4 +1,4 @@
-<section class="pt-md-50 pb-30 pb-md-120">
+<section class="pt-md-50 pb-30 pb-md-120" data-aos="fade-in">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-xxl-5 mb-10 mb-md-60">
