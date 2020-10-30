@@ -1,38 +1,41 @@
-<section class="pt-50 pb-60 overflow-hidden">
+<section class="pt-50 pb-md-60 overflow-hidden">
     <div class="container">
-        <div class="nav nav__pills--1 mb-20" role="tablist">
-            <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
-            <a class="nav-link" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
-        </div><!-- /.nav -->
-        <div class="tab-content">
-            <div class="tab-pane show active" id="tab-portfolio" role="tabpanel">
-                <div class="swiper-1 swiper-container mb-30">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <?php include 'elements/card__1.php' ?>
-                        </div>
-                        <div class="swiper-slide">
-                            <?php include 'elements/card__1.php' ?>
-                        </div>
-                        <div class="swiper-slide">
-                            <?php include 'elements/card__1.php' ?>
-                        </div>
+        <div class="d-none d-md-block">
+            <div class="nav nav__pills--1 mb-20" role="tablist">
+                <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
+                <a class="nav-link" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
+            </div><!-- /.nav -->
+        </div>
+        <div class="tab__custom--1 tab-content">
+            <div class="tab-pane mb-30 mb-md-0 show active" id="tab-portfolio" role="tabpanel">
+                <div class="nav__pills--1 mb-20 d-md-none">
+                    <div class="nav-link active">Portfolio</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-10 mb-md-30">
+                        <?php include 'elements/card__portfolio.php' ?>
+                    </div>
+                    <div class="col-md-4 mb-10 mb-md-30">
+                        <?php include 'elements/card__portfolio.php' ?>
+                    </div>
+                    <div class="col-md-4 mb-10 mb-md-30">
+                        <?php include 'elements/card__portfolio.php' ?>
                     </div>
                 </div>
                 <div class="">
                     <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
                 </div>
             </div>
-            <div class="tab-pane" id="tab-blog" role="tabpanel">
-                <div class="swiper-1 swiper-container mb-30">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <?php include 'elements/card__1.php' ?>
-                        </div>
+            <div class="tab-pane mb-30 mb-md-0" id="tab-blog" role="tabpanel">
+                <div class="nav__pills--1 mb-20 d-md-none">
+                    <div class="nav-link active">Blog</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-10">
+                        <?php include 'elements/card__blog.php' ?>
+                    </div>
+                    <div class="col-md-4 mb-10">
+                        <?php include 'elements/card__blog.php' ?>
                     </div>
                 </div>
                 <div class="">
