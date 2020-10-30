@@ -56,22 +56,6 @@
 <?php include 'elements/_footer.php' ?>
 <?php include 'elements/_footer-scripts.php' ?>
 <script>
-    var swiper = new Swiper('.swiper-1', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        observer: true,
-        observeParents: true,
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            992: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            }
-        }
-    });
     var swiper = new Swiper('.swiper-2', {
         slidesPerView: 1.1,
         spaceBetween: 20,

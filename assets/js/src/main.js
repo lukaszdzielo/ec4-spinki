@@ -16,7 +16,7 @@ function init() {
         styles: [],
     };
     // find map with ID
-    var mapElement = document.getElementById('map');
+    var mapElement = document.getElementById('footer__map');
     var map = new google.maps.Map(mapElement, mapOptions);
     
     // add marker
