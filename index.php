@@ -57,4 +57,13 @@
 <?php include 'elements/_footer.php' ?>
 <?php include 'elements/_footer-scripts.php' ?>
 
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+      },
+    });
+</script>
+
 <?php include 'elements/_html_end.php' ?>

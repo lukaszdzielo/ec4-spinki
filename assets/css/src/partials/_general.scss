@@ -29,26 +29,35 @@ strong {
     &--scroll {
         position: relative;
         margin: 0;
-        @include font-size(2.25rem);
+        @include media-breakpoint-up(md) {
+            @include font-size(2.25rem);
+        }
         ul {
             margin: 0;
-            padding: 30px 22px 50px 0;
-            max-height: 600px;
             overflow: auto;
+            @include media-breakpoint-up(md) {
+                padding: 30px 22px 50px 0;
+                max-height: 600px;
+            }
         }
         li {
             + li {
-                margin-top: 20px;
+                margin-top: 10px;
+                @include media-breakpoint-up(md) {
+                    margin-top: 20px;
+                }
             }
         }
         &:before,
         &:after {
-            content: "";
             position: absolute;
             right: 7px;
             left: 0;
             display: block;
             pointer-events: none;
+            @include media-breakpoint-up(md) {
+                content: "";
+            }
         }
         &:before {
             top: 0;
@@ -83,52 +92,60 @@ strong {
 
 .nav__pills {
     &--step {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-        width: 100%;
-        color: $gray-900;
-        font-weight: $font-weight-bold;
-        text-decoration: none;
-        text-align: left;
-        box-shadow: none !important;
-        transition: 0.15s;
-        &.collapsed {
-            opacity: .5;
-        }
-        span {
-            display: block;
-        }
-        .number {
-            width: 120px;
-            font-size: 3.75rem;
-            line-height: normal;
-            text-align: center;
-            &:before {
-                content: "";
-                display: block;
-                margin-bottom: -40px;
-                width: 120px;
-                height: 75px;
-                background: $primary;
+        .nav-link {
+            padding: 0;
+            color: $gray-900;
+            font-weight: $font-weight-bold;
+            transition: 0.15s;
+            + .nav-link {
+                margin-top: 40px;
             }
-        }
-        .text {
-            @include font-size(2.25rem);
-        }
-        ~ .nav__pills--step {
-            margin-top: 40px;
+            span {
+                display: block;
+            }
+            &:not(.active) {
+                @include media-breakpoint-up(lg) {
+                    opacity: .5;
+                }
+            }
+            .number {
+                width: 70px;
+                @include font-size(2.25rem);
+                line-height: normal;
+                text-align: center;
+                @include media-breakpoint-up(lg) {
+                    width: 120px;
+                    font-size: 3.75rem;
+                }
+                &:before {
+                    content: "";
+                    display: block;
+                    margin-bottom: -20px;
+                    width: 100%;
+                    height: 40px;
+                    background: $primary;
+                    @include media-breakpoint-up(lg) {
+                        margin-bottom: -40px;
+                        height: 75px;
+                    }
+                }
+            }
+            .text {
+                @include font-size(1.125rem);
+                @include media-breakpoint-up(lg) {
+                    @include font-size(2.25rem);
+                }
+            }
         }
     }
     &--1 {
         .nav-link {
-            margin-right: 25px;
             padding: 0;
             background: transparent;
             color: rgba($gray-900,.5);
             @include font-size(3rem);
             font-weight: $font-weight-bolder;
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(md) {
                 margin-right: 125px;
             }
             &.active {

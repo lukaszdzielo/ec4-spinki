@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#">Kalkulator weselny</a>
                 </li>
             </ul>
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                 </li>

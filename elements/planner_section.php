@@ -1,11 +1,11 @@
-<section class="pt-md-50 pb-120">
+<section class="pt-md-50 pb-30 pb-md-120">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-7 col-xxl-5 mb-60">
+            <div class="col-md-7 col-xxl-5 mb-10 mb-md-60">
                 <div class="h2 m-0">WEDDING PLANNER</div>
                 <div class="h1 m-0">CZY WARTO?</div>
             </div>
-            <div class="col-md col-xxl-5 mb-60">
+            <div class="col-md col-xxl-5 mb-10 mb-md-60">
                 <div class="position-relative pl-10 pt-5 pb-10 text__custom--1 font-weight-bolder">
                     <div class="shape__custom--2"></div>
                     Czy warto zatrudnić <br>wedding plannera?
@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="text__custom--1 font-weight-bolder">Stworzyłyśmy listę pytań, dzięki której określisz czy konsultant ślubny jest Ci potrzebny:</div>
-        <div class="list--scroll mt-15 mb-50">
+        <div class="list--scroll mt-15 mb-20 mb-md-50">
             <ul class="list-unstyled">
                 <li>- jeśli <strong>mieszkasz za granicą,</strong></li>
                 <li>- jeśli <strong>mieszkasz w innym mieście</strong> oddalonym o wiele kilometrów od miejsca </li>organizacji ślubu,
