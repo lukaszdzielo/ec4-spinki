@@ -1,4 +1,4 @@
-<section class="pt-50 pb-md-60 overflow-hidden">
+<section class="pt-md-50 pb-md-60 overflow-hidden">
     <div class="container">
         <div class="d-none d-md-block">
             <div class="nav nav__pills--1 mb-20" role="tablist">
@@ -7,7 +7,7 @@
             </div><!-- /.nav -->
         </div>
         <div class="tab__custom--1 tab-content">
-            <div class="tab-pane mb-30 mb-md-0 show active" id="tab-portfolio" role="tabpanel">
+            <div class="tab-pane fade mb-30 mb-md-0 show active" id="tab-portfolio" role="tabpanel">
                 <div class="nav__pills--1 mb-20 d-md-none">
                     <div class="nav-link active">Portfolio</div>
                 </div>
@@ -26,7 +26,7 @@
                     <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
                 </div>
             </div>
-            <div class="tab-pane mb-30 mb-md-0" id="tab-blog" role="tabpanel">
+            <div class="tab-pane fade mb-30 mb-md-0" id="tab-blog" role="tabpanel">
                 <div class="nav__pills--1 mb-20 d-md-none">
                     <div class="nav-link active">Blog</div>
                 </div>
