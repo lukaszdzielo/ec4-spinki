@@ -4,7 +4,7 @@
             <div class="nav nav__pills--1 mb-20" role="tablist">
                 <a class="nav-link active" data-toggle="pill" href="#tab-portfolio" role="tab">Portfolio</a>
                 <a class="nav-link" data-toggle="pill" href="#tab-blog" role="tab">Blog</a>
-            </div><!-- /.nav -->
+            </div>
         </div>
         <div class="tab__custom--1 tab-content">
             <div class="tab-pane fade mb-30 mb-md-0 show active" id="tab-portfolio" role="tabpanel">
@@ -42,6 +42,6 @@
                     <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
                 </div>
             </div>
-        </div><!-- /.tab-content -->
+        </div>
     </div>
 </section>

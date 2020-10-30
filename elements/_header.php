@@ -1,10 +1,9 @@
-<header class="navbar sticky-top navbar-expand-xxl bg-white mb-30 mt-xxl-30">
+<header class="navbar sticky-top navbar-expand-xxl bg-white mb-md-30 mt-xxl-30">
     <div class="container position-relative">
         <a class="navbar-brand" href="/">
             <img src="assets/img/dist/logo.png" alt="#">
         </a>
 
-        <!-- Button trigger modal -->
         <button class="navbar-toggler" type="button" data-toggle="modal" data-target=".modal__nav">
             <i class="fas fa-bars fa-lg"></i>
         </button>
@@ -45,7 +44,6 @@
     </div>
 </header>
 
-<!-- Modal -->
 <div class="modal__nav modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
