@@ -66,6 +66,11 @@ $fa-font-path:        "../../fonts/fontawesome/webfonts";
 // FontAwesome end
 
 
+// AOS
+@import "../../lib/aos/scss/aos.scss";
+// FontAwesome end
+
+
 @import "partials/general";
 @import "partials/header";
 @import "partials/footer";

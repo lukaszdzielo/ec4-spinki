@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="assets/css/dist/main.min.css">
     <!-- add script in head of your website -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
