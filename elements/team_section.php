@@ -1,4 +1,4 @@
-<section class="pt-50 pb-20 overflow-hidden">
+<section class="pt-md-50 pb-20 overflow-hidden">
     <div class="container">
         <div class="mb-10 mb-md-50">
             <div class="h2 m-0">SPINKI</div>
@@ -6,7 +6,7 @@
         </div>
         <div class="row gx-xxl-50">
             <div class="col-xl-4 mb-30">
-                <img src="assets/img/dist/zespol.jpg" alt="#" loading="lazy" class="image__custom--team w-100">
+                <img src="assets/img/dist/zespol.jpg" alt="#" loading="lazy" class="image__custom--team">
             </div>
             <div class="col-md-4 col-xl mb-20">
                 <div class="card__team">
@@ -65,6 +65,6 @@
                     </div>
                 </div>
             </div>
-        </div><!-- /.row -->
-    </div><!-- /.container -->
+        </div>
+    </div>
 </section>
