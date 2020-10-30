@@ -55,29 +55,5 @@
 
 <?php include 'elements/_footer.php' ?>
 <?php include 'elements/_footer-scripts.php' ?>
-<script>
-    var swiper = new Swiper('.swiper-2', {
-        slidesPerView: 1.1,
-        spaceBetween: 20,
-        breakpoints: {
-            576: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-            },
-            992: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            1400: {
-                slidesPerView: 3,
-                spaceBetween: 50,
-            },
-            1600: {
-                slidesPerView: 3,
-                spaceBetween: 70,
-            },
-        }
-    });
-</script>
 
 <?php include 'elements/_html_end.php' ?>
