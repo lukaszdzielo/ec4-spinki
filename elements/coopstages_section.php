@@ -1,4 +1,4 @@
-<section class="pt-md-50 pb-10 pb-md-90">
+<section class="pt-md-50 pb-10 pb-md-90" data-aos="fade-in">
     <div class="container">
         <div class="image__custom--text mb-20 mb-md-70">
             <img src="assets/img/dist/etapywspolpracy.jpg" alt="#" loading="lazy" class="">
@@ -7,7 +7,7 @@
                 <div class="h1 m-0">WSPÓŁPRACY</div>
             </div>
         </div>
-        <div class="row gx-50">
+        <div class="row gx-md-50">
             <div class="col-md-5 d-none d-md-block">
                 <div class="nav nav__pills--step mb-20" role="tablist">
                     <a class="nav-link active" data-toggle="pill" href="#tab-ankieta" role="tab">

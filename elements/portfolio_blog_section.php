@@ -1,4 +1,4 @@
-<section class="pt-md-50 pb-md-60 overflow-hidden">
+<section class="pt-md-50 pb-md-60 overflow-hidden" data-aos="fade-in">
     <div class="container">
         <div class="d-none d-md-block">
             <div class="nav nav__pills--1 mb-20" role="tablist">
