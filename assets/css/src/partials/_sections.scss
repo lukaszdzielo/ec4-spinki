@@ -79,6 +79,35 @@
         transform: translate(50%, 50%);
         pointer-events: none;
     }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    &__image {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &--lg--minh1 {
+        @include media-breakpoint-up(lg) {
+            min-height: 660px;
+        }
+    }
+    &__svg--1 {
+        position: absolute;
+        right: 20px;
+        bottom: -40px;
+        height: 120px;
+        @include media-breakpoint-up(lg) {
+            right: 30px;
+            bottom: -80px;
+            height: 180px;
+        }
+    }
 }
 
 .line__custom {
@@ -136,6 +165,8 @@
         z-index: -1;
     }
 }
+
+.svg__custom--
 
 .text {
     &__custom {

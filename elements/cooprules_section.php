@@ -1,4 +1,4 @@
-<section class="pt-md-50 overflow-hidden" data-aos="fade-in">
+<section class="pt-md-50" data-aos="fade-in">
     <div class="container">
         <div class="row gx-50">
             <div class="col-md-4 mb-20 mb-md-40 pt-lg-60 order-md-1 text-center">

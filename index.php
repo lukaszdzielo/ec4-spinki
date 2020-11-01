@@ -4,7 +4,7 @@
 
 <?php include 'elements/_header.php' ?>
 
-<main>
+<main class="overflow-hidden">
 
 <section data-aos="fade-in">
     <div class="container">
