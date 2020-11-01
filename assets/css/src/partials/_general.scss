@@ -138,7 +138,7 @@ strong {
             }
         }
     }
-    &--1 {
+    &--tab {
         .nav-link {
             padding: 0;
             background: transparent;
@@ -162,6 +162,41 @@ strong {
             @include media-breakpoint-down(md) {
                 display: block;
                 opacity: 1;
+            }
+        }
+    }
+}
+
+.text {
+    &-more {
+        color: $gray-900;
+    }
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    @include font-size(1.5rem);
+    font-weight: $font-weight-bold;
+    list-style: none;
+    .page-item {
+        .page-link {
+            display: block;
+            color: $primary;
+            margin: 0 5px;
+            padding: 0 5px;
+            line-height: 1;
+            text-decoration: none;
+        }
+        &.active {
+            .page-link {
+                color: $gray-900;
+                text-decoration: underline;
+            }
+        }
+        &.disabled {
+            .page-link {
+                pointer-events: none;
             }
         }
     }
