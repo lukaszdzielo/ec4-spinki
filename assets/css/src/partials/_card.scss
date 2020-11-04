@@ -57,10 +57,12 @@
         }
     }
     &--body {
-        display: flex;
-        flex-direction: column;
         width: 100%;
         height: 100%;
+        @include media-breakpoint-up(md) {
+            display: flex;
+            flex-direction: column;
+        }
     }
     &--title {
         @include font-size(1.5rem);
