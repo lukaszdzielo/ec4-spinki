@@ -11,7 +11,7 @@
         <div class="banner--lg--minh1 row g-0 bg-primary">
             <div class="col-lg-6 position-relative">
                 <div class="banner__content p-20 pb-110 px-lg-70 pt-lg-80 pb-lg-130">
-                    <div class="h1 mb-20 text-uppercase">Referencje</div>
+                    <div class="h1 mb-20">REFERENCJE</div>
                     <div>
                         <p>W 14 lat zorganizowaliśmy ponad 500 wesel. Od samego początku referencje od naszych par są dla nas powodem do dumy.<br><br>Nie jesteśmy w stanie przedstawić wszystkich referencji od naszych zadowolonych par, dlatego wyselekcjonowaliśmy tylko kilka z nich. Zachęcamy Cię do przeczytania opinii o weselach ze Spinkami.</p>
                     </div>
