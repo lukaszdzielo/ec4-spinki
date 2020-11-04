@@ -21,7 +21,7 @@
     </div>
 </section>
 
-<section class="pt-lg-50 pb-20" data-aos="fade-in">
+<section class="pt-lg-50 pb-20 pb-md-90" data-aos="fade-in">
     <div class="container">
         <div class="row g-50 g-xxl-100">
             <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-in">
