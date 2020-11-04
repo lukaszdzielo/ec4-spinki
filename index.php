@@ -16,7 +16,7 @@
                 <img src="assets/img/dist/banner.jpg" alt="#" loading="lazy">
                 <img src="assets/img/dist/banner--mobile.jpg" alt="#" loading="lazy" class="d-block d-md-none">
                 <div class="banner--start d-none d-lg-inline-block">Zaczynajmy</div>
-                <img src="assets/img/dist/banner--mark.png" alt="#" class="banner--mark d-none d-md-block" loading="lazy">
+                <img src="assets/img/dist/mark--dark.png" alt="#" style="right:0; bottom:0; transform:translate(50%, 50%);" class="banner--mark d-none d-md-block" loading="lazy">
             </div>
         </div>
     </div>

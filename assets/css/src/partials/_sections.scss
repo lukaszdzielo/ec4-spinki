@@ -73,10 +73,7 @@
     }
     &--mark {
         position: absolute;
-        right: 0;
-        bottom: 0;
         max-width: 15vw;
-        transform: translate(50%, 50%);
         pointer-events: none;
     }
     &__content {

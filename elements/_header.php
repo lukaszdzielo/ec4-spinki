@@ -1,6 +1,6 @@
 <header class="navbar sticky-top navbar-expand-xxl bg-white mb-md-30 mt-xxl-30">
     <div class="container position-relative">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="./">
             <img src="assets/img/dist/logo.png" alt="#">
         </a>
 

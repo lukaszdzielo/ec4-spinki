@@ -5,6 +5,7 @@
 	<ul>
 		<li><a href="./">SPIN-155 Strona główna</a></li>
 		<li><a href="page-kontakt.php">SPIN-159 Kontakt</a></li>
+		<li><a href="page-uslugi.php">SPIN-160 Usługi</a></li>
 		<li><a href="page-referencje.php">SPIN-161 Referencje</a></li>
 	</ul>
 </div>
