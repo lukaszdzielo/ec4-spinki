@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-4 col-xl mb-20">
                 <div class="card__team">
-                    <div class="card__team--image mb-md-20">
+                    <div class="card__team--image_1 mb-md-20">
                         <img src="assets/img/dist/karina-ciosk.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pl-20 pl-md-0">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-4 col-xl mb-20">
                 <div class="card__team">
-                    <div class="card__team--image mb-md-20 order-1 order-md-0">
+                    <div class="card__team--image_1 mb-md-20 order-1 order-md-0">
                         <img src="assets/img/dist/agata-papiez.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pr-20 pr-md-0">
@@ -48,7 +48,7 @@
             </div>
             <div class="col-md-4 col-xl mb-20">
                 <div class="card__team">
-                    <div class="card__team--image mb-md-20">
+                    <div class="card__team--image_1 mb-md-20">
                         <img src="assets/img/dist/weronika-mikolajczak.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pl-20 pl-md-0">
