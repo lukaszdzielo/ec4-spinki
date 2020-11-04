@@ -1,16 +1,32 @@
+<?php include 'elements/_html_start.php' ?>
+
+<?php include 'elements/_head.php' ?>
+
+<?php include 'elements/_header.php' ?>
+
+<main>
+
+<section class="pb-40 pb-lg-100" data-aos="fade-in">
+    <div class="container">
+        <div class="banner--lg--minh1 row g-0 bg-dark text-white">
+            <div class="col-lg-6 position-relative">
+                <div class="banner__content p-20 px-lg-70 py-lg-80 text-lg-center">
+                    <div class="h1 mb-0 text-uppercase">Kontakt</div>
+                </div>
+            </div>
+            <div class="banner__image col-lg-6 d-none d-lg-block">
+                <img src="assets/img/dist/hero--kontakt.jpg" alt="#">
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="pt-lg-50 pb-20" data-aos="fade-in">
     <div class="container">
-        <div class="mb-10 mb-md-50">
-            <div class="h2 m-0">SPINKI</div>
-            <div class="h1 m-0">ZESPÓŁ</div>
-        </div>
-        <div class="row gx-xxl-50">
-            <div class="col-xl-4 mb-30">
-                <img src="assets/img/dist/zespol.jpg" alt="#" loading="lazy" class="image__custom--team">
-            </div>
-            <div class="col-md-4 col-xl mb-20">
+        <div class="row g-50 g-xxl-100">
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-in">
                 <div class="card__team">
-                    <div class="card__team--image_1 mb-md-20">
+                    <div class="card__team--image mb-md-20">
                         <img src="assets/img/dist/karina-ciosk.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pl-20 pl-md-0">
@@ -27,9 +43,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xl mb-20">
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-in">
                 <div class="card__team">
-                    <div class="card__team--image_1 mb-md-20 order-1 order-md-0">
+                    <div class="card__team--image mb-md-20 order-1 order-md-0">
                         <img src="assets/img/dist/agata-papiez.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pr-20 pr-md-0">
@@ -46,9 +62,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xl mb-20">
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-in">
                 <div class="card__team">
-                    <div class="card__team--image_1 mb-md-20">
+                    <div class="card__team--image mb-md-20">
                         <img src="assets/img/dist/weronika-mikolajczak.jpg" alt="#" loading="lazy">
                     </div>
                     <div class="card__team--body pl-20 pl-md-0">
@@ -65,6 +81,29 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-in">
+                <div class="card__team">
+                    <div class="card__team--image mb-md-20 order-1 order-md-0">
+                        <img src="assets/img/dist/norbert-ciosk.jpg" alt="#" loading="lazy">
+                    </div>
+                    <div class="card__team--body pr-20 pr-md-0">
+                        <div class="mb-10 mb-xl-20">
+                            <div class="card__team--title">Norbert Ciosk</div>
+                            <div class="card__team--positions">współwłaściciel agencji ślubnej Spinki i koordynator</div>
+                        </div>
+                        <div class="mt-auto">
+                            <a href="#">norbert@agencjaspinki.pl</a> <br>Tel. <a href="#">+48 691 773 760</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+</main>
+
+<?php include 'elements/_footer.php' ?>
+<?php include 'elements/_footer-scripts.php' ?>
+
+<?php include 'elements/_html_end.php' ?>

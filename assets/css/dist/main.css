@@ -21681,21 +21681,22 @@ footer .list li + li {
   @media (min-width: 768px) {
     .card__team {
       flex-direction: column; } }
-  .card__team .card__team--image {
+  .card__team .card__team--image_1 {
     flex: 0 0 100px; }
-    .card__team .card__team--image img {
-      max-height: 400px; }
-      @media (min-width: 1200px) {
-        .card__team .card__team--image img {
-          max-height: 350px; } }
-      @media (min-width: 1400px) {
-        .card__team .card__team--image img {
-          max-height: 400px; } }
-      @media (min-width: 1600px) {
-        .card__team .card__team--image img {
-          max-height: 490px; } }
+    @media (min-width: 1200px) {
+      .card__team .card__team--image_1 img {
+        max-height: 350px; } }
+    @media (min-width: 1400px) {
+      .card__team .card__team--image_1 img {
+        max-height: 400px; } }
+    @media (min-width: 1600px) {
+      .card__team .card__team--image_1 img {
+        max-height: 490px; } }
   .card__team--body {
-    width: 100%; }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; }
   .card__team--title {
     font-size: calc(1.275rem + 0.3vw);
     font-weight: 700; }
