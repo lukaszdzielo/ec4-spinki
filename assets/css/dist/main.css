@@ -21164,6 +21164,9 @@ p {
   margin: 0; }
   p + p {
     margin-top: 1rem; }
+    @media (min-width: 992px) {
+      p + p {
+        margin-top: 1.25rem; } }
 
 b,
 strong {
@@ -21233,7 +21236,9 @@ strong {
     border-color: #f0c8bf; }
 
 .nav__pills--step .nav-link {
+  position: relative;
   padding: 0;
+  width: 100%;
   color: #231f20;
   font-weight: 700;
   transition: 0.15s; }
@@ -21241,7 +21246,7 @@ strong {
     margin-top: 40px; }
   .nav__pills--step .nav-link span {
     display: block; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .nav__pills--step .nav-link:not(.active) {
       opacity: .5; } }
   .nav__pills--step .nav-link .number {
@@ -21291,6 +21296,40 @@ strong {
   .nav__pills--tab .nav-link.active {
     background: transparent;
     color: #231f20; }
+
+.nav__pills--place .nav-link {
+  position: relative;
+  padding: 10px 0 10px 20px;
+  width: 100%;
+  color: #231f20;
+  font-weight: 700;
+  transition: 0.15s; }
+  .nav__pills--place .nav-link + .nav-link {
+    margin-top: 30px; }
+  .nav__pills--place .nav-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 10vw;
+    max-width: 120px;
+    height: 100%;
+    background: #f0c8bf;
+    z-index: -1; }
+  .nav__pills--place .nav-link span {
+    display: block; }
+  @media (min-width: 768px) {
+    .nav__pills--place .nav-link:not(.active) {
+      opacity: .5; } }
+  .nav__pills--place .nav-link .text {
+    font-size: 1.125rem; }
+    @media (min-width: 992px) {
+      .nav__pills--place .nav-link .text {
+        font-size: calc(1.35rem + 1.2vw); } }
+  @media (min-width: 992px) and (min-width: 1200px) {
+    .nav__pills--place .nav-link .text {
+      font-size: 2.25rem; } }
 
 @media (max-width: 767.98px) {
   .tab__custom--1 .tab-pane {
@@ -21584,37 +21623,37 @@ footer .list li + li {
   background: #f0c8bf;
   z-index: -1; }
 
-.svg__custom-- .text__custom--1 {
+.text__custom--1 {
   font-size: calc(1.275rem + 0.3vw); }
   @media (min-width: 1200px) {
-    .svg__custom-- .text__custom--1 {
+    .text__custom--1 {
       font-size: 1.5rem; } }
 
-.svg__custom-- .text__custom--2 {
+.text__custom--2 {
   font-size: 0.75rem; }
   @media (min-width: 768px) {
-    .svg__custom-- .text__custom--2 {
+    .text__custom--2 {
       font-size: calc(1.275rem + 0.3vw); } }
   @media (min-width: 768px) and (min-width: 1200px) {
-    .svg__custom-- .text__custom--2 {
+    .text__custom--2 {
       font-size: 1.5rem; } }
 
-.svg__custom-- .text__custom--3 {
+.text__custom--3 {
   font-size: 1.125rem; }
   @media (min-width: 768px) {
-    .svg__custom-- .text__custom--3 {
+    .text__custom--3 {
       font-size: calc(1.3125rem + 0.75vw); } }
   @media (min-width: 768px) and (min-width: 1200px) {
-    .svg__custom-- .text__custom--3 {
+    .text__custom--3 {
       font-size: 1.875rem; } }
 
-.svg__custom-- .text__custom--4 {
+.text__custom--4 {
   font-size: calc(1.375rem + 1.5vw); }
   @media (min-width: 1200px) {
-    .svg__custom-- .text__custom--4 {
+    .text__custom--4 {
       font-size: 2.5rem; } }
 
-.svg__custom-- .text-more {
+.text-more {
   color: #231f20;
   font-size: 1.125rem; }
 

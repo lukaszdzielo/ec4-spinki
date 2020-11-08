@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="banner__image col-lg-6 d-none d-lg-block">
-                <img src="assets/img/dist/hero--kontakt.jpg" alt="#">
+                <img src="assets/img/dist/hero--kontakt.jpg" alt="#" loading="lazy">
             </div>
         </div>
     </div>
