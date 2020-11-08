@@ -19,7 +19,7 @@
                 <svg class="banner__svg--1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 446.86"><path d="M292.57,36.57V256H438.86c0,80.66-65.63,146.29-146.29,146.29v73.14C413.57,475.43,512,377,512,256V36.57Z" transform="translate(4 -32.57)" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:8px"/><path d="M0,256H146.29c0,80.66-65.63,146.29-146.29,146.29v73.14C121,475.43,219.43,377,219.43,256V36.57H0Z" transform="translate(4 -32.57)" style="fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:8px"/></svg>
             </div>
             <div class="banner__image col-lg-6 d-none d-lg-block">
-                <img src="assets/img/dist/hero--reference.jpg" alt="#">
+                <img src="assets/img/dist/hero--reference.jpg" alt="#" loading="lazy">
             </div>
         </div>
     </div>
