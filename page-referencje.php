@@ -11,7 +11,9 @@
         <div class="banner--lg--minh1 row g-0 bg-primary">
             <div class="col-lg-6 position-relative">
                 <div class="banner__content p-20 pb-110 px-lg-70 pt-lg-80 pb-lg-130">
-                    <div class="h1 mb-20">REFERENCJE</div>
+                    <div class="mb-20">
+                        <div class="h1 m-0">REFERENCJE</div>
+                    </div>
                     <div>
                         <p>W 14 lat zorganizowaliśmy ponad 500 wesel. Od samego początku referencje od naszych par są dla nas powodem do dumy.<br><br>Nie jesteśmy w stanie przedstawić wszystkich referencji od naszych zadowolonych par, dlatego wyselekcjonowaliśmy tylko kilka z nich. Zachęcamy Cię do przeczytania opinii o weselach ze Spinkami.</p>
                     </div>
@@ -27,21 +29,27 @@
 
 <section class="pt-50">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-xl-4 mb-20 mb-lg-40" data-aos="fade-in">
+        <div class="row gy-20 gy-md-40">
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
                 <?php include 'elements/card__reference.php' ?>
             </div>
-            <div class="col-md-6 col-xl-4 mb-20 mb-lg-40" data-aos="fade-in">
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
                 <?php include 'elements/card__reference.php' ?>
             </div>
-            <div class="col-md-6 col-xl-4 mb-20 mb-lg-40" data-aos="fade-in">
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
                 <?php include 'elements/card__reference.php' ?>
             </div>
-            <div class="col-md-6 col-xl-4 mb-20 mb-lg-40" data-aos="fade-in">
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
+                <?php include 'elements/card__reference.php' ?>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
+                <?php include 'elements/card__reference.php' ?>
+            </div>
+            <div class="col-md-6 col-xl-4" data-aos="fade-in">
                 <?php include 'elements/card__reference.php' ?>
             </div>
         </div>
-        <nav class="my-20" data-aos="fade-in">
+        <nav class="my-20 mt-md-40" data-aos="fade-in">
             <ul class="pagination m-0 justify-content-center">
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item active"><a class="page-link" href="#">2</a></li>

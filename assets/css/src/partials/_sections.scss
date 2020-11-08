@@ -82,6 +82,13 @@
         justify-content: center;
         height: 100%;
     }
+    &__subcontent {
+        position: absolute;
+        right: 0;
+        bottom: -150px;
+        width: 80%;
+        z-index: 1;
+    }
     &__image {
         img {
             width: 100%;
@@ -182,6 +189,9 @@
         }
         &--4 {
             @include font-size(2.5rem);
+        }
+        &--5 {
+            line-height: 2;
         }
     }
     &-more {

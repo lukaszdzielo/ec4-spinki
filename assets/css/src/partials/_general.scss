@@ -200,6 +200,22 @@ strong {
             }
         }
     }
+    &--opinion {
+        .nav-link {
+            padding: 0;
+            background: transparent;
+            color: rgba($gray-900,.5);
+            @include font-size(1.5rem);
+            font-weight: $font-weight-bolder;
+            @include media-breakpoint-up(md) {
+                margin-right: 50px;
+            }
+            &.active {
+                background: transparent;
+                color: $gray-900;
+            }
+        }
+    }
 }
 
 .tab__custom {
