@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<section class="pt-md-50 pb-md-60" data-aos="fade-in">
+<section class="pt-md-50 pb-40 pb-md-60" data-aos="fade-in">
     <div class="container">
         <div class="row gx-md-70 gy-30">
             <div class="col-md-6">
@@ -84,7 +84,7 @@
     </div>
 </section>
 
-<section class="pt-md-50 pb-md-60" data-aos="fade-in">
+<section class="pt-md-50 pb-40 pb-md-60" data-aos="fade-in">
     <div class="container">
         <div class="row gx-md-70 gy-30">
             <div class="col-md-6 order-md-1">
@@ -140,7 +140,7 @@
     </div>
 </section>
 
-<section class="pt-md-50 pb-md-60" data-aos="fade-in">
+<section class="pt-md-50 pb-40 pb-md-60" data-aos="fade-in">
     <div class="container">
         <div class="row gx-md-70 gy-30">
             <div class="col-md-6">
