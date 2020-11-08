@@ -11,7 +11,9 @@
         <div class="banner--lg--minh1 row g-0 bg-dark text-white">
             <div class="col-lg-6 position-relative">
                 <div class="banner__content p-20 px-lg-70 py-lg-80 text-lg-center">
-                    <div class="h1 mb-0">KONTAKT</div>
+                    <div>
+                        <div class="h1 m-0">KONTAKT</div>
+                    </div>
                 </div>
             </div>
             <div class="banner__image col-lg-6 d-none d-lg-block">

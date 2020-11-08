@@ -25,7 +25,9 @@
 <section class="pt-md-50 pb-50" data-aos="fade-in">
     <div class="container">
         <div class="mb-10 mb-md-30 text-center">
-            <div class="h1 m-0">ŚLUBY I PRZYJĘCIA WESELNE</div>
+            <div>
+                <div class="h1 m-0">ŚLUBY I PRZYJĘCIA WESELNE</div>
+            </div>
         </div>
         <div class="text__custom--3">
             <p>Organizacja wesela z Agencją Ślubną Spinki to ogrom możliwości tworzenia wyjątkowych ślubów.</p><p>Każda z nas, kobiet, ma swoje wyobrażenia o idealnym przyjęciu. Dla jednych to pałac, długi welon i kryształy, a dla innych nowoczesna stodoła i suknia boho. Jesteśmy różne, ale pragniemy jednego - przyjęcia wyjątkowego dla nas! I takie przyjęcia tworzą dla Ciebie Spinki.</p>
