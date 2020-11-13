@@ -19,10 +19,12 @@
                         <p><em>Historia Spinek zaczyna się w roku 2006, kiedy w głowie młodej dziewczyny pojawia się marzenie o organizacji przyjęć weselnych tak pięknych, jak te z filmu „Powiedz tak” z Jennifer Lopez. To historia założycielki marki, która nie patrząc na to czy jest to możliwe zrobiła odważny krok i założyła firmę ze swoich marzeń.</em></p>
                     </div>
                 </div>
+                <img src="assets/img/dist/mark--halfr--dark.png" alt="#" style="right:20px; bottom:20px; transform:translate(0,50%);" class="banner--mark d-none d-lg-block" loading="lazy">
             </div>
             <div class="banner__image col-lg d-none d-lg-block position-relative">
-                <img src="assets/img/dist/hero--onas.jpg" alt="#" loading="lazy">
+                <img src="assets/img/dist/hero--onas.jpg" alt="#" class="banner__image--photo" loading="lazy">
                 <div class="banner__subcontent bg-dark text-white p-20 px-lg-70 py-lg-80 text__custom--5">Tą dziewczyną była Karina Ciosk. Stworzyła ona Agencję Spinki, która już 14 lat tworzy jedne z najbardziej rozpoznawalnych wesel na rynku ślubnym w Polsce. Poznajcie założycielkę marki wraz z drużyną niezawodnych Spinek.</div>
+                <img src="assets/img/dist/mark--halfl--dark.png" alt="#" style="top:-20px; right:20px;" class="banner--mark d-none d-lg-block" loading="lazy">
             </div>
         </div>
     </div>

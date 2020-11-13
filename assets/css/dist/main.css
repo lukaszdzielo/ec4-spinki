@@ -24549,7 +24549,8 @@ footer .list li + li {
 .banner--mark {
   position: absolute;
   max-width: 15vw;
-  pointer-events: none; }
+  pointer-events: none;
+  z-index: 1; }
 
 .banner__content {
   display: flex;
@@ -24564,7 +24565,7 @@ footer .list li + li {
   width: 80%;
   z-index: 1; }
 
-.banner__image img {
+.banner__image .banner__image--photo {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
