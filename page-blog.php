@@ -15,9 +15,11 @@
                         <div class="h1 m-0">BLOG</div>
                     </div>
                 </div>
+                <img src="assets/img/dist/mark--halfr--dark.png" alt="#" style="top:50px; left:50px;" class="banner--mark d-none d-lg-block" loading="lazy">
+                <img src="assets/img/dist/mark--halfl--dark.png" alt="#" style="right:50px; bottom:50px;" class="banner--mark d-none d-lg-block" loading="lazy">
             </div>
-            <div class="banner__image col-lg-6 d-none d-lg-block">
-                <img src="assets/img/dist/hero--reference.jpg" alt="#" loading="lazy">
+            <div class="banner__image col-lg-6 d-none d-lg-block position-relative">
+                <img src="assets/img/dist/hero--reference.jpg" alt="#" class="banner__image--photo" loading="lazy">
             </div>
         </div>
     </div>

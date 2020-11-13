@@ -15,8 +15,8 @@
                 </div>
                 <img src="assets/img/dist/mark--light.png" alt="#" style="right:0; bottom:50px; transform:translate(50%, 0);" class="banner--mark d-none d-lg-block" loading="lazy">
             </div>
-            <div class="banner__image col-lg-6 d-none d-lg-block">
-                <img src="assets/img/dist/hero--uslugi.jpg" alt="#" loading="lazy">
+            <div class="banner__image col-lg-6 d-none d-lg-block position-relative">
+                <img src="assets/img/dist/hero--uslugi.jpg" alt="#" class="banner__image--photo" loading="lazy">
             </div>
         </div>
     </div>
