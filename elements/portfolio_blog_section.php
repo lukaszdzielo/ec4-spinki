@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                    <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                 </div>
             </div>
             <div class="tab-pane fade mb-30 mb-md-0" id="tab-blog" role="tabpanel">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                    <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                 </div>
             </div>
         </div>

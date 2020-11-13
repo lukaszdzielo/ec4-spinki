@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="mt-40">
-                        <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                        <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div class="mt-40">
-                        <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                        <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                     <div class="mt-40">
-                        <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                        <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                     </div>
                 </div>
             </div>
