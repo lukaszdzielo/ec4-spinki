@@ -1,0 +1,137 @@
+// Color system ~6
+
+$gray-100: #f1f1f1 !default;
+$gray-900: #231f20 !default;
+
+$primary:       #f0c8bf;
+$dark:          $gray-900 !default;
+
+// Options ~204
+
+$enable-negative-margins:     true !default;
+
+// Spacing ~233
+
+$spacers: (
+    0:    0,
+    5:    5px,
+    10:  10px,
+    15:  15px,
+    20:  20px,
+    25:  25px,
+    30:  30px,
+    35:  35px,
+    40:  40px,
+    45:  45px,
+    50:  50px,
+    55:  55px,
+    60:  60px,
+    65:  65px,
+    70:  70px,
+    75:  75px,
+    80:  80px,
+    85:  85px,
+    90:  90px,
+    95:  95px,
+    100:  100px,
+    105:  105px,
+    110:  110px,
+    115:  115px,
+    120:  120px,
+    125:  125px,
+    130:  130px,
+    135:  135px,
+    140:  140px,
+    145:  145px,
+    150:  150px,
+    200:  200px,
+    250:  250px,
+    300:  300px,
+) !default;
+
+// Grid breakpoints ~291
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    xxxl: 1600px
+) !default;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px,
+    xxxl: 1560px
+) !default;
+
+// Grid columns ~328
+
+$grid-gutter-width:           30px !default;
+
+// Container padding ~338
+
+$container-padding-x:         40px !default;
+
+// Components ~343
+
+$border-radius:               0 !default;
+$border-radius-sm:            0 !default;
+$border-radius-lg:            0 !default;
+
+// Typography ~391
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700;900&display=swap');
+
+$font-family-base: 'Barlow', sans-serif;
+
+$font-weight-normal:          300 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          900 !default;
+
+$headings-font-weight:        $font-weight-bolder !default;
+
+$h1-font-size:                3.75rem !default;
+$h2-font-size:                3rem !default;
+
+// Buttons + Forms ~550
+
+$input-btn-focus-width:         0 !default;
+
+// Buttons ~576
+
+$btn-padding-y-lg:            1.125rem !default;
+$btn-font-size-lg:            1.5rem !default;
+
+$btn-font-weight:             $font-weight-bold !default;
+
+// Forms ~616
+
+$input-padding-y:                       1.25rem !default;
+$input-padding-x:                       1.25rem !default;
+
+$form-label-color:                      rgba($gray-900, .5) !default;
+
+$input-border-color:                    $primary !default;
+$input-border-width:                    2px !default;
+
+$input-border-radius:                   0 !default;
+
+$input-focus-border-color:              $primary !default;
+
+$form-label-font-weight:                $font-weight-bold !default;
+$input-font-weight:                     $font-weight-bold !default;
+
+$form-floating-height:            unset !default;
+$form-floating-padding-y:         1.25rem !default;
+$form-floating-input-padding-t:   1.875rem !default;
+$form-floating-label-opacity:     1 !default;
+$form-floating-label-transform:   scale(.85) translateY(-.5rem) translateX(.15rem) !default;
+
+$form-check-input-border:                 2px solid $primary !default;
+$form-check-input-border-radius:          0 !default;

@@ -24,7 +24,7 @@
 
 <section class="pt-30 pt-md-50 pb-md-20" data-aos="fade-in">
     <div class="container">
-        <div class="text__custom--4 font-weight-bolder mb-10">SPINKI WEDDING PLANNERS - ORGANIZACJA WESEL I ŚLUBÓW OD 14 LAT </div>
+        <div class="text__custom--4 fw-bolder mb-10">SPINKI WEDDING PLANNERS - ORGANIZACJA WESEL I ŚLUBÓW OD 14 LAT </div>
         <div class="text__custom--3 mb-30 mb-md-70">
             <span class="text-nowrap">{ KRAKÓW }</span>
             <span class="text-nowrap">{ KIELCE }</span>
@@ -38,7 +38,7 @@
             <div class="col-md-6 mb-30">
                 <p>Wspaniale Cię u nas gościć. <strong>Przed Tobą organizacja wesela, która jest ważną częścią historii Twojej rodziny. Pozwól, żebyśmy i my weszli do tej historii.</strong> </br></br>Spinki to nowoczesne wedding plannerki z misją tworzenia przyjęć na miarę XXI wieku. Jesteśmy jedną z pierwszych agencji ślubnych w Polsce. <strong>Organizujemy wesela i śluby od ponad 14 lat w Krakowie, Kielcach, Warszawie, Poznaniu i wielu innych miastach.</strong> </br></br><strong>Ponad 500 zorganizowanych wesel</strong> czyni z nas ekspertów w tej branży. To <strong>mnóstwo doświadczenia, którego teraz tak bardzo potrzebujesz.</strong></p>
                 <div class="mt-20 mt-md-40">
-                    <a href="#" class="text-more font-weight-bold">Kliknij po więcej</a>
+                    <a href="#" class="text-more fw-bold">Kliknij po więcej</a>
                 </div>
             </div>
         </div>
