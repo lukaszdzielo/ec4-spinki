@@ -9,6 +9,8 @@
 		<li><a href="page-kontakt.php">SPIN-159 Kontakt</a></li>
 		<li><a href="page-uslugi.php">SPIN-160 Usługi</a></li>
 		<li><a href="page-referencje.php">SPIN-161 Referencje</a></li>
+		<li><a href="page-formularz.php">SPIN-170 Formularz</a></li>
+		<li><a href="page-portfolio.php">SPIN-170 Portfolio</a></li>
 	</ul>
 </div>
 
