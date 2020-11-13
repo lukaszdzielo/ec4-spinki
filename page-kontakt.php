@@ -15,6 +15,8 @@
                         <div class="h1 m-0">KONTAKT</div>
                     </div>
                 </div>
+                <img src="assets/img/dist/mark--halfl--light.png" alt="#" style="top:50px; right:50px;" class="banner--mark d-none d-lg-block" loading="lazy">
+                <img src="assets/img/dist/mark--halfr--light.png" alt="#" style="left:50px; bottom:50px;" class="banner--mark d-none d-lg-block" loading="lazy">
             </div>
             <div class="banner__image col-lg-6 d-none d-lg-block">
                 <img src="assets/img/dist/hero--kontakt.jpg" alt="#" loading="lazy">
