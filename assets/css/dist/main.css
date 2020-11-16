@@ -77,10 +77,10 @@ h2, .h2 {
       font-size: 3rem; } }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw); }
+  font-size: calc(1.3125rem + 0.75vw); }
   @media (min-width: 1200px) {
     h3, .h3 {
-      font-size: 1.75rem; } }
+      font-size: 1.875rem; } }
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw); }
@@ -7399,7 +7399,7 @@ textarea.form-control-lg {
   font-size: calc(1.425rem + 2.1vw) !important; }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important; }
+  font-size: calc(1.3125rem + 0.75vw) !important; }
 
 .fs-4 {
   font-size: calc(1.275rem + 0.3vw) !important; }
@@ -18554,7 +18554,7 @@ textarea.form-control-lg {
   .fs-2 {
     font-size: 3rem !important; }
   .fs-3 {
-    font-size: 1.75rem !important; }
+    font-size: 1.875rem !important; }
   .fs-4 {
     font-size: 1.5rem !important; }
   .fs-sm-1 {
@@ -18562,7 +18562,7 @@ textarea.form-control-lg {
   .fs-sm-2 {
     font-size: 3rem !important; }
   .fs-sm-3 {
-    font-size: 1.75rem !important; }
+    font-size: 1.875rem !important; }
   .fs-sm-4 {
     font-size: 1.5rem !important; }
   .fs-md-1 {
@@ -18570,7 +18570,7 @@ textarea.form-control-lg {
   .fs-md-2 {
     font-size: 3rem !important; }
   .fs-md-3 {
-    font-size: 1.75rem !important; }
+    font-size: 1.875rem !important; }
   .fs-md-4 {
     font-size: 1.5rem !important; }
   .fs-lg-1 {
@@ -18578,7 +18578,7 @@ textarea.form-control-lg {
   .fs-lg-2 {
     font-size: 3rem !important; }
   .fs-lg-3 {
-    font-size: 1.75rem !important; }
+    font-size: 1.875rem !important; }
   .fs-lg-4 {
     font-size: 1.5rem !important; } }
 
@@ -24558,11 +24558,17 @@ footer .list li + li {
   justify-content: center;
   height: 100%; }
 
-.banner__subcontent {
+.banner__subcontent--1 {
   position: absolute;
   right: 0;
   bottom: -150px;
   width: 80%;
+  z-index: 1; }
+
+.banner__subcontent--2 {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
   z-index: 1; }
 
 .banner__image .banner__image--photo {
@@ -24666,6 +24672,12 @@ footer .list li + li {
 
 .text__custom--5 {
   line-height: 2; }
+
+.text__custom--6 {
+  font-size: calc(1.425rem + 2.1vw); }
+  @media (min-width: 1200px) {
+    .text__custom--6 {
+      font-size: 3rem; } }
 
 .text-more {
   color: #231f20;
