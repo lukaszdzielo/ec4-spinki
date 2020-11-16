@@ -84,11 +84,19 @@
         height: 100%;
     }
     &__subcontent {
-        position: absolute;
-        right: 0;
-        bottom: -150px;
-        width: 80%;
-        z-index: 1;
+        &--1 {
+            position: absolute;
+            right: 0;
+            bottom: -150px;
+            width: 80%;
+            z-index: 1;
+        }
+        &--2 {
+            position: absolute;
+            right: 0;
+            bottom: -100px;
+            z-index: 1;
+        }
     }
     &__image {
         .banner__image--photo {
@@ -193,6 +201,9 @@
         }
         &--5 {
             line-height: 2;
+        }
+        &--6 {
+            @include font-size(3rem);
         }
     }
     &-more {
