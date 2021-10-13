@@ -1,1 +1,5 @@
-# spinki - html cut
+# HTML cut
+
+npm i
+
+gulp or gulp frontend
