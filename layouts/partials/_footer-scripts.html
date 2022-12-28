@@ -1,0 +1,7 @@
+{{ $bootstrap := resources.Get "lib/bootstrap/dist/js/bootstrap.bundle.js" }}
+{{ $swiper := resources.Get "lib/swiper/swiper-bundle.js" }}
+{{ $aos := resources.Get "lib/aos/js/aos.js" }}
+{{ $main := resources.Get "js/app.js" }}
+
+{{ $script := slice $bootstrap $swiper $aos $main | resources.Concat "/js/app.js" }}
+<script src="{{ $script.RelPermalink }}"></script>
