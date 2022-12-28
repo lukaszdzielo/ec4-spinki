@@ -29,7 +29,7 @@ function init() {
             anchor: new google.maps.Point(25, 25)
         },
         map: map,
-    }); 
+    });
 }
 // Map end
 
