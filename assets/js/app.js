@@ -24,7 +24,7 @@ function init() {
     var marker1 = new google.maps.Marker({
         position: map.getCenter(),
         icon: {
-            url: "https://lukaszdzielo.github.io/Spinki/img/dist/map--marker.png",
+            url: "https://lukaszdzielo.github.io/ec4-spinki/img/dist/map--marker.png",
             size: new google.maps.Size(50, 50),
             anchor: new google.maps.Point(25, 25)
         },
